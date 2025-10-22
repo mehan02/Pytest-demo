@@ -1,4 +1,4 @@
-# PyTest Demo – Calculator Unit Tests (with CI Integration)
+# PyTest Demo – (with CI)
 
 A simple Python project demonstrating **PyTest** features — assertions, fixtures, parametrization, exception testing, mocking —  
 plus **GitHub Actions CI** for automated testing and HTML reporting.
@@ -7,16 +7,17 @@ plus **GitHub Actions CI** for automated testing and HTML reporting.
 
 ## Project Structure
 
+```
  pytest-calculator-demo/
 │
 ├── calculator.py 
 ├── test_calculator.py 
 ├── .github/
-├── workflows/
-└── pytest.yml 
+    |── workflows/
+        └── pytest.yml 
+```
 
-
-
+  
 
 ---
 
