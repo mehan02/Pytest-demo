@@ -29,6 +29,7 @@ def square_root(x):
     return math.sqrt(x)
 
 
+
 class Calculator:
     """Basic calculator class"""
 
@@ -43,3 +44,9 @@ class Calculator:
         if not numbers:
             raise ValueError("Cannot compute average of empty list")
         return sum(numbers) / len(numbers)
+
+
+mycak = Calculator()
+print("mycak.divide(10, 2) =", mycak.divide(10, 2))
+print("mycak.average([1, 2, 3, 4, 5]) =", mycak.average([1, 2, 3, 4, 5]))
+print("mycak.average([]) =", mycak.average([]))

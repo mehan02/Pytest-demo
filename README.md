@@ -38,10 +38,21 @@ pip install pytest pytest-html
 pytest -v
 ```
 
+
 Generate HTML Report
 ```bash
 pytest -v --html=report.html --self-contained-html
 ```
+
+![HTML Report Generation](Screenshots/report%20generation.png)
+
+---
+
+## CI/CD Integration
+
+This project includes GitHub Actions CI for automated testing:
+
+![GitHub Actions CI Integration](Screenshots/CI%20github%20actions%20integration.png)
 
 ### References
 

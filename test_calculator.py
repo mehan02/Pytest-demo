@@ -107,3 +107,4 @@ def test_mock_square_root(mock_sqrt):
     result = square_root(9)  # Calls mocked sqrt(9)
     assert result == 3.0
     mock_sqrt.assert_called_once_with(9)  # Verify
+
